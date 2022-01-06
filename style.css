@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.nav-container {
+    width: 80%;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 25px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-title {
+    color: white;
+    font-size: 30px;
+    font-weight: light;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    margin: 0 15px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav button {
+    background-color: #17a2b8;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    font-size: 16px;
+    margin: 0;
+    padding: 2px 6px;
+}
+
+.nav button:hover {
+    cursor: pointer;
+}
+
+main {
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+}
+
+.column1 {
+    flex: 2;
+}
+
+.column2 {
+    flex: 1;
+}
+
+#user-card {
+    border: 3px solid #d5d5d5;
+    display: flex;
+    flex-direction: column;
+}
+
+#rectangle {
+    height: 70px;
+    background-color: #17a2b8;
+}
+
+#user-card h1 {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+#user-card h2 {
+    font-size: 16px;
+    font-weight: light;
+}
+
+#info {
+    padding: 50px 25px 25px 25px;
+}
+
+#rectangle>img {
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+#description {
+    margin: 8px 0;
+}
+
+#profileImg {
+    width: 70px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 0px 3px #d5d5d5;
+    border-radius: 50%;
+}
+
+#markerIcon {
+    width: 10px;
+    margin-right: 3px;
+}
+
+#gearIcon {
+    width: 15px;
+    margin-right: 3px;
+}
+
+#user-card a {
+    color: #2b78e4;
+}
+
+main img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.card {
+    border: 3px solid #d5d5d5;
+}
+
+.card-title {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.card-number {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    border-radius: 50%;
+}
+
+.card-number-1 {
+    width: 25px;
+    height: 25px;
+}
+
+.card-number-2 {
+    width: 45px;
+    height: 25px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.card-request,
+.card-connection {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+}
+
+.card-profile {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card-response {
+    display: flex;
+    gap: 3px;
+}
+
+.card-accept,
+.card-decline {
+    background-color: #999999;
+    color: white;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-accept:hover,
+.card-decline:hover,
+.card-view-more:hover {
+    cursor: pointer;
+}
+
+.card-view-more {
+    border-top: 3px solid #d5d5d5;
+    padding: 10px 8px;
+    color: #0c5394;
+    text-decoration: underline;
+}
+
+.card-info-large {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 12px;
+}
+
+.card-info-large h2 {
+    font-size: 16px;
+    font-weight: light;
+}
+
+.card-info-large h3 {
+    font-size: 14px;
+    font-weight: light;
+    color: #666666;
+}
